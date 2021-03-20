@@ -9,213 +9,208 @@
     </head>
 
     <body>
-        <header>
-            <!--▽▽ヘッダーロゴ▽▽-->
-                  <div class="logo1">
-                      <a href="#" id="headerlogo"><img src="headericon.png" class="hedlogo">
-                      </a>
-                  </div>
-            <!--△△ヘッダーロゴ△△-->
-            
-            
-            <!--▽▽ハンバーガーメニュー▽▽-->
-                  <div id="hamburger">
-                      <div class="icon">
-                          <span></span>
-                          <span></span>
-                          <span></span>
-                      </div>
-                  </div>
-            <!--△△ハンバーガーメニュー△△-->
-            
-             
-            <!--▽▽ハンバーガーメニューのリスト▽▽-->
-                  <nav class="sm navi">
-                    <ul class="lists">
-                      <li class="lili"><a  class="listwords" href="#">代表挨拶</a></li>
-                      <li class="lili"><a  class="listwords" href="#">早稲田祭について</a></li>
-                      <li class="lili"><a  class="listwords" href="#">新歓イベント</a></li>
-                      <li class="lili"><a  class="listwords" href="#">活動について</a></li>
-                      <li class="lili"><a  class="listwords" href="#">連載記事</a></li>
-                      <li class="lili"><a  class="listwords" href="#">年間スケジュール</a></li>
-                      <li class="lili"><a  class="listwords" href="#">フォトギャラリー</a></li>
-                      <li class="lili"><a  class="listwords" href="#">入会方法</a></li>
-                      <li class="lili"><a  class="listwords" href="#">お問い合わせ</a></li>
-                   </ul>
-                 </nav>
-            <!--△△ハンバーガーメニューのリスト△△-->
-            
-        
-            <!--▽▽ヘッダーリスト▽▽-->
-                  <nav class="pc navi">  <!--pcクラスを追記-->
-                    <ul class="lists">
-                      <li class="lili"><a  class="listwords" href="#">代表挨拶</a></li>
-                      <li class="lili"><a  class="listwords" href="#">新歓イベント</a></li>
-                      <li class="lili"><a  class="listwords" href="#">連載記事</a></li>
-                      <li class="lili"><a  class="listwords" href="#">入会方法</a></li>
-                      <li class="lili"><a  class="listwords" href="#">お問い合わせ</a></li>
-                    </ul>
-                  </nav>
-            <!--△△ヘッダーリスト△△-->
-            
-                </header>
-            
-            
-            <!--▽▽jQuery▽▽-->
-                <script src="jquery-3.6.0.min.js"></script>
-                  <script>
-                    $('#hamburger').on('click', function(){
-                    $('.icon').toggleClass('close');
-                    $('.sm').slideToggle();
-                    });
-              
-                  </script>
-            <!--△△jQuery△△-->
+      <header>
+  
+        <div class="logo1">
+            <a href=" https://wasedasai2021shinkan.github.io/toppage/" id="headerlogo"><img src="headericon.png" class="hedlogo">
+            </a>
+        </div>
+  
+        <div id="hamburger">
+            <div class="icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+  
+        <nav class="sm navi">
+          <ul class="lists">
+            <li class="lili"><a  class="listwords" href="https://wasedasai2021shinkan.github.io/daihyouaisatsu/">代表挨拶</a></li>
+            <li class="lili"><a  class="listwords" href="https://wasedasai2021shinkan.github.io/about/">早稲田祭について</a></li>
+            <li class="lili"><a  class="listwords" href="https://wasedasai2021shinkan.github.io/event/">新歓イベント</a></li>
+            <li class="lili"><a  class="listwords" href="https://wasedasai2021shinkan.github.io/katsudounitsuite/">活動について</a></li>
+            <li class="lili"><a  class="listwords" href="https://wasedasai2021shinkan.github.io/rensai/">連載記事</a></li>
+            <li class="lili"><a  class="listwords" href="https://wasedasai2021shinkan.github.io/schedule/
+          ">年間スケジュール</a></li>
+            <li class="lili"><a  class="listwords" href="https://wasedasai2021shinkan.github.io/photogallery/">フォトギャラリー</a></li>
+            <li class="lili"><a  class="listwords" href="https://wasedasai2021shinkan.github.io/nyukai/">入会方法</a></li>
+            <li class="lili"><a  class="listwords" href="https://wasedasai2021shinkan.github.io/otoiawase/">お問い合わせ</a></li>
+         </ul>
+        </nav>
+  
+
+  
+        <nav class="pc navi">  
+          <ul class="lists">
+            <li class="lili"><a  class="listwords" href="https://wasedasai2021shinkan.github.io/daihyouaisatsu/">代表挨拶</a></li>
+            <li class="lili"><a  class="listwords" href="https://wasedasai2021shinkan.github.io/about/">早稲田祭について</a></li>
+            <li class="lili"><a  class="listwords" href="https://wasedasai2021shinkan.github.io/katsudounitsuite/">活動について</a></li>
+            <li class="lili"><a  class="listwords" href="https://wasedasai2021shinkan.github.io/photogallery/">フォトギャラリー</a></li>
+            <li class="lili"><a  class="listwords" href="https://wasedasai2021shinkan.github.io/otoiawase/">お問い合わせ</a></li>
+          </ul>
+        </nav>
  
+  
+      </header>
+  
+  
+
+      <script src="jquery-3.6.0.min.js"></script>
+        <script>
+          $('#hamburger').on('click', function(){
+          $('.icon').toggleClass('close');
+          $('.sm').slideToggle();
+          });
+    
+        </script>
+
+<style>
+/*header*/
+
+header {
+height: 60px;
+width: 100%;
+padding: 0px 0px;
+background-color:#78c1cd;
+position: fixed;
+top: 0;
+z-index: 10;
+display: flex;
+font-family:serif;
+}
 
 
-        <style>
-            header {
-    height: 60px;
-    width: 100%;
-    padding: 0px 0px;
-    background-color:#78c1cd;
-    position: fixed;
-    top: 0;
+.lili:hover{
+filter: alpha(opacity=85);
+-moz-opacity: 0.85;
+opacity: 0.85;
+
+}
+
+.logo1 {
+font-size: 25px;}
+
+.hedlogo{
+height:55px;
+width:55px;
+margin-left:12px;
+}
+
+
+.hedlogo:hover  {
+filter: alpha(opacity=85);
+-moz-opacity: 0.85;
+opacity: 0.85;
+
+}
+.navi{
+margin: 0 0 0 auto;
+}
+
+.lists {
+display: flex;
+list-style: none;
+padding: 0;
+margin: 0;
+margin-right:15px
+}
+
+.listwords {
+color: #eaf4fc;
+text-decoration: none;
+display: block;
+line-height: 60px;
+padding: 0 20px;
+}
+
+.sm {
+display: none;
+}
+.toppagelogo{
+height:500px;
+width:500px:
+padding:400px;
+margin:0 auto;
+}
+/*---------------------------------------------------------------*/
+@media (max-width: 900px) {
+
+.pc {
+  display: none;
+}
+
+#hamburger {
+  background-color: transparent;
+  position:relative;
+  float:right
+  cursor:pointer;
+  margin: 0 0 0 auto;
+  height: 60px;
+  width: 60px;
+}
+
+.icon span {
+  position: absolute;
+  left: 15px;
+  width: 30px;
+  height: 4px;
+  background-color:#eaf4fc;
+  border-radius: 8px;
+  transition: ease 0.75s;
+}
+
+.icon span:nth-of-type(1) {
+  top: 16px;
+}
+.icon span:nth-of-type(2) {
+  top: 28px;
+}
+.icon span:nth-of-type(3) {
+  bottom: 16px;
+}
+
+.close span:nth-of-type(1) {
+  transform: rotate(45deg);
+  top: 28px;
+}
+
+.close span:nth-of-type(2) {
+  opacity: 0;
+}
+
+.close span:nth-of-type(3) {
+    transform: rotate(-45deg);
+    top: 28px;
+}
+
+.sm {
+    top: 60px;
+    left: 0px;
+    position: absolute;
     z-index: 10;
-    display: flex;
-  }
-  
-  
-  .lili:hover{
-    filter: alpha(opacity=85);
-    -moz-opacity: 0.85;
-    opacity: 0.85;
-  
-  }
-  
-  .logo1 {
-    font-size: 25px;}
+    width: 100%;
+    background-color: #78c1cd;
     
-    .hedlogo{
-  height:55px;
-  width:55px;
-  margin-left:6px;
-    }
-    
-  
-  .hedlogo:hover  {
-    filter: alpha(opacity=85);
-    -moz-opacity: 0.85;
-    opacity: 0.85;
-   
-  }
-   .navi{
-    margin: 0 0 0 auto;
-  }
-  
-  .lists {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .listwords {
-    color: #eaf4fc;
-    text-decoration: none;
-    display: block;
-    line-height: 60px;
-    padding: 0 20px;
-  }
-  
-  .sm {
-    display: none;
-  }
-  .toppagelogo{
-    height:500px;
-    width:500px;
-    padding:400px;
-  margin:0 auto;
-  }
-  /*---------------------------------------------------------------*/
-  @media (max-width: 900px) {
-  
-    .pc {
-      display: none;
-    }
-  
-    #hamburger {
-      background-color: transparent;
-      position:relative;
-      float:right
-      cursor:pointer;
-      margin: 0 0 0 auto;
-      height: 60px;
-      width: 60px;
-    }
-  
-    .icon span {
-      position: absolute;
-      left: 15px;
-      width: 30px;
-      height: 4px;
-      background-color:#eaf4fc;
-      border-radius: 8px;
-      transition: ease 0.75s;
-    }
-  
-    .icon span:nth-of-type(1) {
-      top: 16px;
-    }
-    .icon span:nth-of-type(2) {
-      top: 28px;
-    }
-    .icon span:nth-of-type(3) {
-      bottom: 16px;
-    }
-  
-    .close span:nth-of-type(1) {
-      transform: rotate(45deg);
-      top: 28px;
-    }
-  
-    .close span:nth-of-type(2) {
-      opacity: 0;
-    }
-  
-    .close span:nth-of-type(3) {
-        transform: rotate(-45deg);
-        top: 28px;
-    }
-  
-    .sm {
-        top: 60px;
-        left: 0px;
-        position: absolute;
-        z-index: 10;
-        width: 100%;
-        background-color: #78c1cd;
-        
-    
-    }
-  
-   .lists {
-      flex-direction: column;
-    }
-  
-    .listwords {
-      text-align: center; 
-      border-top: solid 0.5px #eaf4fc;
-    }
-  
-  
-  .list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-        </style>
+
+}
+
+.lists {
+  flex-direction: column;
+}
+
+.listwords {
+  text-align: center; 
+  border-top: solid 0.5px #eaf4fc;
+}
+
+
+.list {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+</style>
 
         <div class="titlephoto">
         <img src="財務局.png" alt="財務局" width="100%" height="auto">
@@ -263,7 +258,7 @@
             </div>
         </div>
             <div class="footerlogo">
-                <a href="toppage.html" target="_blank" > 
+                <a href="https://wasedasai2021shinkan.github.io/toppage/" target="_blank" > 
                     <img src="footerlogo.png" alt="footerlogo" width="40%" height="40%"　border="0"> 
                 </a>
             </div>
